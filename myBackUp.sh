@@ -43,7 +43,7 @@ function spin {
 }
 
 function usage {
-	echo -e "\nUsage: backup <Source File/Directory> <Target File/Directory>\n\nGive a file or folder with path as an argument to backup.\n"
+	echo -e "\nUsage: backup <Source File/Directory> <Target File>\n\nGive a file or folder with path as an argument to backup.\n"
 }
 ########## Main Program ---------------------------------------------------------------------------------
 if [[ $# -eq 2 ]]; then
